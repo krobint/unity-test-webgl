@@ -23,7 +23,8 @@
 </head>
 <body>
   <canvas id="unity-canvas"></canvas>
-  <script src="%UNITY_WEBGL_LOADER_URL%"></script>
+  <!-- Ensure this path is correct -->
+  <script src="Build/try5Loader.js"></script>
   <script>
     createUnityInstance(document.querySelector("#unity-canvas"), {
       dataUrl: "%UNITY_DATA_URL%",
